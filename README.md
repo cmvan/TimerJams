@@ -22,7 +22,10 @@ an iframe tag to change the YouTube video shown on the page.
 Outside of that, HTML and CSS were used to design the user interface and jSON was utilized to add the Chrome extension capability. All
 images, plugins, audio, etc. that were used to complete this project are listed below.
 
-TimeCircles jQuery plugin: http://git.wimbarelds.nl/TimeCircles/about.html \n
-Desk image: https://www.goodfon.com/wallpaper/laptop-desk-coffee-music-cookie.html \n
-Wood image: https://www.pinterest.com/pin/389491067747710508/ \n
+TimeCircles jQuery plugin: http://git.wimbarelds.nl/TimeCircles/about.html
+
+Desk image: https://www.goodfon.com/wallpaper/laptop-desk-coffee-music-cookie.html
+
+Wood image: https://www.pinterest.com/pin/389491067747710508/
+
 Audio: https://www.zedge.net/ringtone/f1d8df8e-77f9-42b0-80c6-b007bd9ee00c
