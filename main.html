@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TimerJams</title>
+        <link href="/TimeCircles/inc/TimeCircles.css" rel="stylesheet">
+        <link href="study.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="media/favicon.ico"/>
+    </head>
+    <body id="main">
+
+        <div id="ref"></div>
+        <h1 id="work-title">Let's Get Working!</h1>
+        <div id="work" data-timer="1500"></div>
+        <div class="timer-buttons">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="restart">Restart</button>
+            <a href="#ref2"><button disabled id="to-break">Take a Break!</button></a>
+        </div>
+
+        <audio id="alarm"><source src="media/tone.mp3" type="audio/mpeg">Your browser doesn't support the audio element.</audio>
+        
+        <div id="music">
+            <div id="form">
+                <h2>Add Your Own Study Music!</h2>
+                <select id="music" name="music">
+                        <option disabled selected value>Song/Playlist URL Type</option>
+                        <option value="YTS">YouTube Song URL</option>
+                        <option value="YTP">YouTube Playlist URL</option>
+                </select>
+                <input autocomplete="off" id="URL" name="URL" placeholder="Song/Playlist URL" type="text">
+                <button id="set">Submit</button>
+            </div>
+            <iframe width="840" height="473" src="https://www.youtube.com/embed/videoseries?list=PLc87N-d3x2CoLujhzz4FDO_he937zMTOP" style="border: 0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="ref2"></div>
+        <h1>Take A Break!</h1>
+        <div id="break" data-timer="300"></div>
+        <div class="timer-buttons">
+            <button id="start2">Start</button>
+            <button id="stop2">Stop</button>
+            <button id="restart2">Restart</button>
+            <a href="#ref"><button id="to-work">Back to Work!</button></a>
+        </div>
+
+        <script src="jquery-3.5.1.js"></script>
+        <script src="/TimeCircles/inc/TimeCircles.js"></script>
+        <script src="study.js"></script>
+
+    </body>
+</html>

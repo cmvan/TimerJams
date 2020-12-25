@@ -1,0 +1,18 @@
+{
+    "name": "TimerJams",
+    "author": "Caroline Van",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Stay productive with Pomodoro-based timers and a space to play your own study music!",
+    "permissions": ["activeTab", "tabs"],
+    "chrome_url_overrides": {
+        "newtab": "intro.html"
+    },
+    "browser_action": {
+        "default_icon": "media/clock16.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": ["jquery-3.5.1.js", "/TimeCircles/inc/TimeCircles.js", "study.js"]
+    }
+}
