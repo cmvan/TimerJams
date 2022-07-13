@@ -8,11 +8,11 @@
     "chrome_url_overrides": {
         "newtab": "intro.html"
     },
-    "browser_action": {
+    "action": {
         "default_icon": "media/clock16.png",
         "default_popup": "popup.html"
     },
     "background": {
-        "service_worker": ["jquery-3.5.1.js", "/TimeCircles/inc/TimeCircles.js", "study.js"]
+        "service_worker": "study.js"
     }
 }
